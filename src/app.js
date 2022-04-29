@@ -2,6 +2,8 @@ const express = require("express");
 const app = express();
 const indexRoutes = require("./indexRoutes");
 const listenPort = '3000';
+const bodyParser = require('body-parser')
+const cors = require('cors')
 
 app.use(cors())
 app.use(express.urlencoded({ extended: false }))
