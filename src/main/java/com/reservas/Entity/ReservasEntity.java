@@ -35,5 +35,5 @@ public class ReservasEntity {
 	private String puesto;
 	
 	@Column(name = "fecha")
-	private Date fecha;
+	private String fecha;
 }
