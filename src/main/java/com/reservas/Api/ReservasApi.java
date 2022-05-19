@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.UUID;
 
 @RestController
+@CrossOrigin
 @RequestMapping(value = "/reservas")
 public class ReservasApi {
     @Autowired
